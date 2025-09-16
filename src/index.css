@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .btn {
+    @apply bg-yellow-400 w-full p-3 text-xs rounded hover:bg-yellow-200 mt-3;
+  }
+
+  @media (min-width: 1280px) {
+    .btn {
+      font-size: 0.875rem; /* equivalent to text-sm */
+    }
+  }
+}
